@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="831badcb-c4fc-436c-9105-6d14b5f6beb3" name="Default" comment="">
+    <list default="true" id="831badcb-c4fc-436c-9105-6d14b5f6beb3" name="Default" comment="Hopeful">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
@@ -33,8 +33,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -179,7 +179,7 @@
       <updated>1480798713833</updated>
       <workItem from="1480798716200" duration="708000" />
       <workItem from="1480799513520" duration="1095000" />
-      <workItem from="1480801191381" duration="5198000" />
+      <workItem from="1480801191381" duration="5425000" />
     </task>
     <task id="LOCAL-00001" summary="Added a login form.">
       <created>1480801648419</created>
@@ -258,11 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480805781386</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed up app.js (I think)">
+      <created>1480806597179</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1480806597179</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7001000" />
+    <option name="totallyTimeSpent" value="7228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -301,7 +308,8 @@
     <MESSAGE value="Did some stuff" />
     <MESSAGE value="Added stuff to app.js" />
     <MESSAGE value="Added stuff to app.js .. might be wrong" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added stuff to app.js .. might be wrong" />
+    <MESSAGE value="Fixed up app.js (I think)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed up app.js (I think)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -347,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
