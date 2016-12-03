@@ -1,7 +1,7 @@
 /**
  * Created by anhkh_000 on 03-Dec-16.
  */
-var UsernameDir ={};
+/**var UsernameDir ={};
 
 function UsernameCheck() {
     var x= document.getElementById("Sign-Up").elements[0].value;
@@ -15,4 +15,5 @@ function UsernameCheck() {
             UsernameDir.push(x);
         }
     }
-}
+}*/
+
