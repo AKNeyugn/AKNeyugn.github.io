@@ -21,14 +21,15 @@
     const btnLogout = document.getElementById('btnLogout');
 
     //Add login event
-    btnLogin.addEventListener('click', e => {
+    btnLogin.addEventListener('click', function() {
         // Get email and pass
         const email = txtEmail.value;
         const pass = txtPassword.value;
         const auth = firebase.auth();
         // Sign in
         const promise = auth.signInWithEmailAndPassword(email, pass);
-        promise.catch(e => console.log(e.message));
+        promise.catch(function() {
+            console.log(e.message)})
     });
 
 }()());
