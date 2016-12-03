@@ -14,7 +14,16 @@
     firebase.initializeApp(config);
 
     // Get elements
-    const pre0Object = firebase.database
+    const pre0Object = document.getElementById('object');
+    const ulList =  document.getElementById('list');
+
+    // Create references
+    const dbRefList = firebase.database().ref().child('object');
+
+    // Sync object changes
+    dbRefList.on('child_added', function() {
+        console.log(snap.val())
+    });
 
 
 }()());
