@@ -21,7 +21,7 @@
     const btnLogout = document.getElementById('btnLogout');
 
     //Add login event
-    btnLogin.addEventListener('click', function(e) {
+    btnLogin.addEventListener('click', function() {
         // Get email and pass
         const email = txtEmail.value;
         const pass = txtPassword.value;
