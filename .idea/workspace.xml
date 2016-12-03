@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831badcb-c4fc-436c-9105-6d14b5f6beb3" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/action_page.js" afterPath="$PROJECT_DIR$/action_page.js" />
+>>>>>>> ce673b192c9e08d1a913b3a23b7445df15ffaa1a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,8 +32,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="562">
               <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+=======
+            <state relative-caret-position="331">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+>>>>>>> ce673b192c9e08d1a913b3a23b7445df15ffaa1a
               <folding />
             </state>
           </provider>
@@ -37,9 +47,17 @@
       <file leaf-file-name="action_page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/action_page.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="374">
               <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
+=======
+            <state relative-caret-position="323">
+              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+>>>>>>> ce673b192c9e08d1a913b3a23b7445df15ffaa1a
             </state>
           </provider>
         </entry>
@@ -180,8 +198,12 @@
       <updated>1480798713833</updated>
       <workItem from="1480798716200" duration="708000" />
       <workItem from="1480799513520" duration="1095000" />
+<<<<<<< HEAD
       <workItem from="1480801191381" duration="1333000" />
       <workItem from="1480802567094" duration="778000" />
+=======
+      <workItem from="1480801191381" duration="2479000" />
+>>>>>>> ce673b192c9e08d1a913b3a23b7445df15ffaa1a
     </task>
     <task id="LOCAL-00001" summary="Added a login form.">
       <created>1480801648419</created>
@@ -204,11 +226,22 @@
       <option name="project" value="LOCAL" />
       <updated>1480802492480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed some stuff">
+      <created>1480802528741</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1480802528741</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="3914000" />
+=======
+    <option name="totallyTimeSpent" value="4282000" />
+>>>>>>> ce673b192c9e08d1a913b3a23b7445df15ffaa1a
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="786" extended-state="6" />
@@ -293,16 +326,29 @@
     <entry file="file://$PROJECT_DIR$/LHD_Project" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="562">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="323">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+>>>>>>> ce673b192c9e08d1a913b3a23b7445df15ffaa1a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/action_page.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="374">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+=======
+        <state relative-caret-position="331">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+>>>>>>> ce673b192c9e08d1a913b3a23b7445df15ffaa1a
           <folding />
         </state>
       </provider>

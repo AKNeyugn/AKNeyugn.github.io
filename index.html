@@ -6,34 +6,25 @@
     <title>Text Alert!</title>
 </head>
 
-
 <body>
 
-<div id="sign up form">
-    <form id="Sign-Up" action="action_page.js" method="post">
-        <fieldset>
-            <legend>Sign Up:</legend>
-            Username: <br> <input type="text" name="UserName"> <br>
-            Password: <br> <input type="text" name="Password"> <br>
-            <input type="submit" value="Submit">
-        </fieldset>
+<div class="container">
+    <input id="txtEmail" type="email" placeholder="Email">
+    <input id="txtPassword" type="password" placeholder="Password">
 
-    </form>
+    <button id="btnLogin" class="btn btn-action">
+        Log in
+    </button>
+
+    <button id="btnSignUp" class="btn btn-secondary">
+        Sign up
+    </button>
+
+    <button id="btnLogOut" class="btn btn-action hide">
+        Log out
+    </button>
 </div>
 
-<br>
-
-<div id="login form">
-    <form id="Login" action="action_page.js" method="post">
-        <fieldset>
-            <legend>Login:</legend>
-            Username: <br> <input type="text" name="UserName"> <br>
-            Password: <br> <input type="text" name="Password"> <br>
-            <input type="submit" value="Submit">
-        </fieldset>
-
-    </form>
-</div>
 
 
 <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>

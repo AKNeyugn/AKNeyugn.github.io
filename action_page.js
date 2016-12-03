@@ -15,5 +15,13 @@ function UsernameCheck() {
             UsernameDir.push(x);
         }
     }
+<<<<<<< HEAD
 }*/
 
+=======
+}
+
+const auth = firebase.auth();
+
+auth.signInWithEmailAndPassword(email, pass);
+>>>>>>> ce673b192c9e08d1a913b3a23b7445df15ffaa1a
