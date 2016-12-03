@@ -1,7 +1,7 @@
 /**
  * Created by anhkh_000 on 03-Dec-16.
  */
-(function () {
+(function() {
 
 // Initialize Firebase
     var config = {
@@ -12,5 +12,6 @@
         messagingSenderId: "220797746951"
     };
     firebase.initializeApp(config);
-    
-})
+
+
+}()());
