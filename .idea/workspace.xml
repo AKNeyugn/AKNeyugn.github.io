@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="263">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+            <state relative-caret-position="425">
+              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -180,7 +180,7 @@
       <updated>1480798713833</updated>
       <workItem from="1480798716200" duration="708000" />
       <workItem from="1480799513520" duration="1095000" />
-      <workItem from="1480801191381" duration="5602000" />
+      <workItem from="1480801191381" duration="6370000" />
     </task>
     <task id="LOCAL-00001" summary="Added a login form.">
       <created>1480801648419</created>
@@ -273,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480806821129</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added script">
+      <created>1480807000380</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1480807000380</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7405000" />
+    <option name="totallyTimeSpent" value="8173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -318,7 +325,8 @@
     <MESSAGE value="Added stuff to app.js .. might be wrong" />
     <MESSAGE value="Fixed up app.js (I think)" />
     <MESSAGE value="Hopefully this works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hopefully this works" />
+    <MESSAGE value="Added script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -356,8 +364,8 @@
     <entry file="file://$PROJECT_DIR$/LHD_Project" />
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        <state relative-caret-position="425">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
@@ -366,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="263">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding />
         </state>
       </provider>
