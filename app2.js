@@ -14,8 +14,7 @@
     firebase.initializeApp(config);
 
     // Get elements
-
-    const UsernamesDir = firebase.database
+    const pre0Object = firebase.database
 
 
 }()());
