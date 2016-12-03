@@ -16,3 +16,7 @@ function UsernameCheck() {
         }
     }
 }
+
+const auth = firebase.auth();
+
+auth.signInWithEmailAndPassword(email, pass);
