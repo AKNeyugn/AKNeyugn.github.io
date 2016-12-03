@@ -29,8 +29,25 @@
         // Sign in
         const promise = auth.signInWithEmailAndPassword(email, pass);
         promise.catch(function(e) {console.log(e.message)});
+
     });
 
+    // Add sign up event
+    btnSignUp.addEventListener('click', function() {
+        // Get email and pass
+        const email = txtEmail.value;
+        // TODO: Check if real email.
+        const pass = txtPassword.value;
+        const auth = firebase.auth();
+        // Sign up
+        const promise = auth.createUserWithEmailAndPassword(email, pass);
+        promise.catch(function(e) {console.log(e.message)});
+    });
 
+    // Add a realtime listener
+    /* TODO
+    firebase.auth.onAuthStateChanged(function () {
 
-}()());
+    });
+    */
+}());

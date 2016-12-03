@@ -3,6 +3,7 @@
  */
 (function() {
 
+    /*
 // Initialize Firebase
     var config = {
         apiKey: "AIzaSyChbZiYz7onNOz55ZWA4S3XdUhKOUQW1W4",
@@ -12,6 +13,7 @@
         messagingSenderId: "220797746951"
     };
     firebase.initializeApp(config);
+    */
 
     // Get elements
     const pre0Object = document.getElementById('object');
