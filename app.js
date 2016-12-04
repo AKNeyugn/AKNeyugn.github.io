@@ -6,11 +6,11 @@
     var https = require('https');
 
     var data = JSON.stringify({
-        api_key: 'API_KEY',
-        api_secret: 'API_SECRET',
+        api_key: '5a0f213d',
+        api_secret: 'ce52b3f3b77f2d8f',
         to: '16047608577',
         from: '441632960961',
-        text: 'Hello from Nexmo'
+        text: 'Hello from Kamal!'
     });
 
     var options = {
