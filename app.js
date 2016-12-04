@@ -29,7 +29,6 @@
         // Sign in
         const promise = auth.signInWithEmailAndPassword(email, pass);
         promise.catch(function(e) {console.log(e.message)});
-
     });
 
     // Add sign up event
