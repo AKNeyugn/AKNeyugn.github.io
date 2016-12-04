@@ -3,20 +3,7 @@
  */
 (function() {
 
-    var accountSid = 'ACa2eec9bfe6e8ded4d8408d4358ecdd41';
-    var authToken = '5a2293da8dde8768dc249527a9a9d62a';
 
-//require the Twilio module and create a REST client
-    var client = require('twilio')(accountSid, authToken);
-
-    client.messages.create({
-        to: "+17788363544",
-        from: "+7782000457",
-        body: "This is the ship that made the Kessel Run in fourteen parsecs?",
-        mediaUrl: "https://c1.staticflickr.com/3/2899/14341091933_1e92e62d12_b.jpg",
-    }, function(err, message) {
-        console.log(message.sid);
-    });
 
 
 // Initialize Firebase
@@ -68,6 +55,21 @@
         } catch(e) {
             console.log(e.message);
         }
+    });
+
+    var accountSid = 'ACa2eec9bfe6e8ded4d8408d4358ecdd41';
+    var authToken = '5a2293da8dde8768dc249527a9a9d62a';
+
+//require the Twilio module and create a REST client
+    var client = require('twilio')(accountSid, authToken);
+
+    client.messages.create({
+        to: "+17788363544",
+        from: "+7782000457",
+        body: "This is the ship that made the Kessel Run in fourteen parsecs?",
+        mediaUrl: "https://c1.staticflickr.com/3/2899/14341091933_1e92e62d12_b.jpg",
+    }, function(err, message) {
+        console.log(message.sid);
     });
 
     // Add a realtime listener
