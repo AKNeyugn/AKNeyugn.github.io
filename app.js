@@ -40,8 +40,15 @@
         const pass = txtPassword.value;
         const auth = firebase.auth();
         // Sign up
-        const promise = auth.createUserWithEmailAndPassword(email, pass);
-        promise.catch(function(e) {console.log(e.message)});
+        try {
+            auth.createUserWithEmailAndPassword(email, pass);
+            firebase.database().ref().set({
+                username: email,
+                password: pass
+            });
+        } catch(e) {
+            console.log(e.message);
+        }
     });
 
     // Add a realtime listener
